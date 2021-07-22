@@ -1,0 +1,36 @@
+.back{
+    background-color: blue;
+    .wraper{
+        display: flex;
+        .block1{
+            color: aqua;
+            width: 100px;
+            height: 100px;
+            flex-direction: column;
+            .label{
+                width: 325px;
+            }
+            .message{
+                width: 325px;
+                height: 35px;
+                color: grey;
+                margin: 0 auto;
+                margin-bottom: 50px;
+                resize: none;
+            }
+        }
+        .block2{
+            color: red;
+            width: 100px;
+            height: 100px;
+            .title{
+                font-size: 15px;
+                font-family: tahoma;
+            }
+            .image{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.back {
+  background-color: blue;
+}
+
+.back .wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.back .wraper .block1 {
+  color: aqua;
+  width: 100px;
+  height: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.back .wraper .block1 .label {
+  width: 325px;
+}
+
+.back .wraper .block1 .message {
+  width: 325px;
+  height: 35px;
+  color: grey;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  resize: none;
+}
+
+.back .wraper .block2 {
+  color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.back .wraper .block2 .title {
+  font-size: 15px;
+  font-family: tahoma;
+}
+
+.back .wraper .block2 .image {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=global.css.map */
