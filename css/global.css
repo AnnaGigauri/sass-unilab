@@ -60,7 +60,8 @@ table {
 }
 
 .back .wraper .block1 .label {
-  width: 325px;
+  width: 95px;
+  height: 30px;
 }
 
 .back .wraper .block1 .message {

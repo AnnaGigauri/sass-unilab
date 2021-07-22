@@ -8,7 +8,8 @@
             height: 100px;
             flex-direction: column;
             .label{
-                width: 325px;
+                width: 95px;
+                height: 30px;
             }
             .message{
                 width: 325px;
@@ -25,7 +26,7 @@
             height: 100px;
             .title{
                 font-size: 15px;
-                font-family: tahoma;
+                font-family: $font01;
                 font-weight: bold;
             }
             .image{
